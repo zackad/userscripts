@@ -12,4 +12,5 @@
     'use strict';
     var meta = document.querySelector('head meta[http-equiv="refresh"]');
     meta.parentNode.removeChild(meta);
+    window.stop();
 })();
