@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name           Old Youtube Layout
+@namespace      https://github.com/zackad
+@description    An attemp to bring back old youtube layout
+@version        0.1.0
+@author         zackad <zackad.dev@gmail.com> (http://zackad.com)
+@licence        MIT
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+  ytd-browse {
+    background: #eee !important;
+  }
+  ytd-two-column-browse-results-renderer {
+    background: #fff;
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+  ytd-grid-video-renderer #meta h3 a.yt-simple-endpoint,
+  ytd-grid-playlist-renderer a#meta #video-title
+  {
+    color: #2a7dd2 !important;
+  }
+}
