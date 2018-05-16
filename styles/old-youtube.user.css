@@ -8,6 +8,13 @@
 ==/UserStyle== */
 
 @-moz-document domain("youtube.com") {
+  /**
+   * Homepage Sidebar
+   */
+  yt-img-shadow.ytd-guide-entry-renderer {
+    border-radius: 0;
+  }
+
   ytd-browse {
     background: #eee !important;
   }
