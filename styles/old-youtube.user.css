@@ -11,6 +11,13 @@
   /**
    * Homepage Sidebar
    */
+  ytd-guide-entry-renderer,
+  #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer {
+    min-height: 35px;
+  }
+  ytd-guide-entry-renderer {
+    height: 35px;
+  }
   yt-img-shadow.ytd-guide-entry-renderer {
     border-radius: 0;
   }
