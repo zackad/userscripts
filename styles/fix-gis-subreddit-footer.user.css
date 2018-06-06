@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           Fix GIS Subreddit Footer
+@namespace      https://github.com/zackad
+@description    Fix oversize image footer on gis subreddit.
+@version        0.1.0
+@author         zackad <zackad.dev@gmail.com> (http://zackad.com)
+@licence        MIT
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.reddit.com/r/gis/") {
+  .footer-parent {
+    padding: inherit;
+    height: 200px;
+  }
+}
