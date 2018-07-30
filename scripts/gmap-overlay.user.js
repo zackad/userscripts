@@ -6,7 +6,7 @@
 // @author       zackad
 // @match        https://*.google.com/maps/*
 // @grant        none
-// @licence      MIT
+// @license      MIT
 // ==/UserScript==
 
 (function() {
