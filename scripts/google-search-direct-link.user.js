@@ -9,23 +9,23 @@
 // @license      MIT
 // ==/UserScript==
 
-(function() {
-    'use strict';
-    main();
+(function () {
+  'use strict'
+  main()
 
-    function getSearchResultLinks() {
-        var links = document.querySelectorAll('#rso a[onmousedown]');
-        return links;
-    }
+  function getSearchResultLinks () {
+    var links = document.querySelectorAll('#rso a[onmousedown]')
+    return links
+  }
 
-    function main() {
-        var links = getSearchResultLinks();
-        removeMouseDownAttribute(links);
-    }
+  function main () {
+    var links = getSearchResultLinks()
+    removeMouseDownAttribute(links)
+  }
 
-    function removeMouseDownAttribute(links) {
-        for (var i = 0; i < links.length; i++) {
-            links[i].removeAttribute('onmousedown');
-        }
+  function removeMouseDownAttribute (links) {
+    for (var i = 0; i < links.length; i++) {
+      links[i].removeAttribute('onmousedown')
     }
-})();
+  }
+})()
