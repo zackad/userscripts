@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           No Vote Reddit
+@namespace      https://github.com/zackad
+@description    Hide vote button on reddit.
+@version        0.1.0
+@author         zackad <zackad.dev@gmail.com> (http://zackad.com)
+@licence        MIT
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.reddit.com/") {
+  .voteButton {
+    display: none;
+  }
+}
