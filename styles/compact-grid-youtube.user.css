@@ -1,0 +1,40 @@
+/* ==UserStyle==
+@name           Compact Grid for YouTube
+@namespace      https://github.com/zackad
+@description    More items per row on YouTube
+@version        0.1.0
+@author         zackad <zackad.dev@gmail.com>
+@licence        MIT
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+  @media (min-width: 400px) {
+    #primary > ytd-rich-grid-renderer {
+      --ytd-rich-grid-items-per-row: 2 !important;
+    }
+  }
+
+  @media (min-width: 600px) {
+    #primary > ytd-rich-grid-renderer {
+      --ytd-rich-grid-items-per-row: 3 !important;
+    }
+  }
+
+  @media (min-width: 992px) {
+    #primary > ytd-rich-grid-renderer {
+      --ytd-rich-grid-items-per-row: 4 !important;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    #primary > ytd-rich-grid-renderer {
+      --ytd-rich-grid-items-per-row: 5 !important;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    #primary > ytd-rich-grid-renderer {
+      --ytd-rich-grid-items-per-row: 6 !important;
+    }
+  }
+}
