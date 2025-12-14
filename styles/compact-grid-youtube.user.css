@@ -4,9 +4,8 @@
 @description    More items per row on YouTube
 @version        0.1.0
 @author         zackad <zackad.dev@gmail.com>
-@licence        MIT
+@license        MIT
 ==/UserStyle== */
-
 @-moz-document domain("youtube.com") {
   @media (min-width: 400px) {
     #primary > ytd-rich-grid-renderer {
@@ -23,6 +22,9 @@
   @media (min-width: 992px) {
     #primary > ytd-rich-grid-renderer {
       --ytd-rich-grid-items-per-row: 4 !important;
+    }
+    .ytd-rich-shelf-renderer {
+      --ytd-rich-grid-items-per-row: 6;
     }
   }
 
